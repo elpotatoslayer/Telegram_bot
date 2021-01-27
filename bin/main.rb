@@ -1,4 +1,6 @@
-#!env/usr/local ruby
+#!/usr/bin/env ruby
 
 require_relative '../lib/bot.rb'
-require_relative '../lib/Jokes.rb
+require_relative '../lib/jokes.rb'
+
+puts 'Hello World'
