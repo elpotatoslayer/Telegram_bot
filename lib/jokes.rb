@@ -22,5 +22,5 @@ class Jokes
   end
 end
 
-joke = Jokes.new
-puts joke.jokes
+# joke = Jokes.new
+# puts joke.jokes
