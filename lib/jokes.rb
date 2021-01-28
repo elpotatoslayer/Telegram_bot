@@ -18,7 +18,7 @@ class Jokes
 
     response = http.request(request)
     response.read_body
-    JSON.parse(response.read_body).values
+    JSON.parse(response.read_body).values[6]
   end
 end
 
