@@ -9,7 +9,7 @@ class Bot
       bot.listen do |message|
         case message.text
         when '/start'
-          bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}. My name is Jokes. I tell Awesome Chuck Nories Jokes And also Give relevant weather infomation. To more about what i can do run '/help'.")
+          bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}. My name is Jokes. I tell Awesome Chuck Nories Jokes And also Give relevant weather infomation. To more about what i can do run '/help' ")
         when '/jokes'
           new_jokes = Jokes.new
           jokes = new_jokes.jokes
