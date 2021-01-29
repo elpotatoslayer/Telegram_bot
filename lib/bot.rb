@@ -29,8 +29,6 @@ class Bot
         when '/help'
           bot.api.send_message(chat_id: message.chat.id,
                                text: "Don't know what to do!! 😭 😭 . Just type the command '/jokes' to see awesome jokes of Chuck Norris, '/trivia' to get a random trivia question based on facts of past years, '/about' to see more about my creator and '/stop' to stop me 🙁.")
-        else
-          bot.api.send_message(chat_id: message.chat.id, text: "Invalid entry, #{message.from.first_name}, you need to use  /start,  /stop , /trivia or /joke")
         end
       end
     end
