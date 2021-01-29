@@ -3,8 +3,10 @@
  > In this project, I built a Telegram Bot that asks random trivia questions based on facts that happened in the past. It also sends you a random Chuck Norris joke every time you type in the command /joke. The main goal is to make a massive use of external API`s by putting into practice the main concepts of Object Oriented Programming, classes, modules, objects and accessing their attributes.
 The project is built using the TDD technique.
 
-## Below here, you can see a screenshot demo of the bot /start command
-
+## How to find the bot on Telegram
+- To find the bot on Telegram, simply download the [desktop](https://telegram.org/) application and on mobile got to the play store (for andriod) and search for telegram or apple store(for ISO) and download the application.
+- Create a Telegram account and simply search for the Bot with the username `@notJokesBot`.
+- Run the command to `/start` and enjoy using the bot.
 ## You can see a short demo of the Bot /start command in the screenshot below.
 
 ![image](./img.png)
