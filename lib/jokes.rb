@@ -21,4 +21,3 @@ class Jokes
     JSON.parse(response.read_body).values[6]
   end
 end
-

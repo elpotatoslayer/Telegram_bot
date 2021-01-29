@@ -5,6 +5,10 @@ The project is built using the TDD technique.
 
 ## Below here, you can see a screenshot demo of the bot /start command
 
+## You can see a short demo of the Bot /start command in the screenshot below.
+
+![image](./img.png)
+
 ## The available commands in the telegram bot
 - `/start` receive a greetings message.
 - `/joke`  receive random Chuck Norris joke.
