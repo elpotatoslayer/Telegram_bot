@@ -1,6 +1,6 @@
 # Telegram_bot
 
- > In this project, I built a Telegram Bot that asks random trivia questions based on facts that happened in the passed. It also sends you a random Chuck Norris joke every time you type in the command /joke. The main goal is to make a massive use of external API`s by putting into practice the main concepts of Object Oriented Programming, classes, modules, objects and accessing their attributes.
+ > In this project, I built a Telegram Bot that asks random trivia questions based on facts that happened in the past. It also sends you a random Chuck Norris joke every time you type in the command /joke. The main goal is to make a massive use of external API`s by putting into practice the main concepts of Object Oriented Programming, classes, modules, objects and accessing their attributes.
 The project is built using the TDD technique.
 
 ## Below here, you can see a screenshot demo of the bot /start command
