@@ -4,7 +4,6 @@ require_relative '../lib/jokes'
 require_relative '../lib/random'
 require_relative '../lib/facts'
 # rubocop:disable Layout/LineLength
-# rubocop:disable Metrics/ClassLength
 class Bot
   def initialize
     Telegram::Bot::Client.run(TELEGRAM_TOKEN_ID) do |bot|
@@ -38,4 +37,3 @@ class Bot
   end
 end
 # rubocop:enable Layout/LineLength
-# rubocop:enable Metrics/ClassLength
