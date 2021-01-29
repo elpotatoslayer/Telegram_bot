@@ -1,4 +1,4 @@
-require_relative '../lib/random.rb'
+require_relative '../lib/random'
 
 describe Methods do
   describe '#rand_string' do

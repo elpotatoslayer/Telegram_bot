@@ -17,10 +17,6 @@ class Facts
 
     response = http.request(request)
     response.read_body
-    JSON.parse(response.read_body)
-    # JSON.parse(response.read_body).map { |x| {text: x['text'], date: x['date']}  }
+    JSON.parse(response.read_body)['text']
   end
 end
-
-random = Facts.new
-puts random.facts
