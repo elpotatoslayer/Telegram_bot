@@ -82,7 +82,7 @@ In addition to the above, the repo also contains .rubocop.yml for linting.
 
 ## Authors
 
-👤 **Rick Oburu**
+👤 **Ralph Oburu**
 
 - Github: [Ralph-1](https://github.com/Ralph-1)
 - Twitter: [@NotRalph0](https://twitter.com/NotRalph0)
