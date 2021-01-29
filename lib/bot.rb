@@ -5,7 +5,6 @@ require_relative '../lib/random'
 require_relative '../lib/facts'
 # rubocop:disable Layout/LineLength
 class Bot
-  def initialize
     Telegram::Bot::Client.run(TELEGRAM_TOKEN_ID) do |bot|
       bot.listen do |message|
         case message.text
@@ -32,6 +31,5 @@ class Bot
         end
       end
     end
-  end
 end
 # rubocop:enable Layout/LineLength
