@@ -1,6 +1,5 @@
 require 'telegram/bot'
 require_relative '../config'
-require_relative '../lib/jokes'
 require_relative '../lib/random'
 require_relative '../lib/facts'
 # rubocop:disable Layout/LineLength

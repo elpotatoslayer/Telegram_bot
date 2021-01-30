@@ -7,6 +7,7 @@ The project is built using the TDD technique.
 - To find the bot on Telegram, simply download the [desktop](https://telegram.org/) application and on mobile got to the play store (for andriod) and search for telegram or apple store(for ISO) and download the application.
 - Create a Telegram account and simply search for the Bot with the username `@notJokesBot`.
 - Run the command to `/start` and enjoy using the bot.
+- Click this [link!](https://web.telegram.org/#/im?p=@notJokesBot) to use the bot on the Browser.
 ## You can see a short demo of the Bot /start command in the screenshot below.
 
 ![image](./img.png)
@@ -16,7 +17,7 @@ The project is built using the TDD technique.
 - `/joke`  receive random Chuck Norris joke.
 - `/trivia` receive trivia question.
 - `/help`  receive help on commands.
-- `about`  receive info about the creator.
+- `/about`  receive info about the creator.
 
 
 ## Built with
@@ -36,13 +37,13 @@ To get this project up and running locally, you must have [Ruby](https://www.rub
 
 **Step 1**<br>
 Navigate through the local directory where you want to clone the repository and run<br>
-`git clone https://github.com/Ralph-1/Telegram_bot/tree/Telegram_bot`.<br>
+`git clone https://github.com/Ralph-1/Telegram_bot.git`.<br>
 **Step 2**<br>
-Run `cd TELEGRAM_BOT`<br>
+Run `cd Telegram_bot`<br>
 **Step 3**<br>
-Run `bundle install` to install the gems from the `Gemfile`.<br>
+Change to the branch with the bot using `git checkout Telegram_bot`<br>
 **Step 4**<br>
-Download the [Telegram app](https://desktop.telegram.org/), create an account and search for Jokes bot with the username of @notJokesBot.<br>
+Run `bundle install` to install the gems from the `Gemfile`.<br>
 **Step 5**<br>
 Run `ruby bin/main.rb` to start the bot.<br>
 **Step 6**<br>
